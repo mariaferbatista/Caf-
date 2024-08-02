@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafeteria Delícia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Cafeteria Delícia</h1>
+            <nav>
+                <ul>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="menu">
+        <div class="container">
+            <h2>Nosso Menu</h2>
+            <div class="menu-items">
+                <div class="item">
+                    <h3>Café Expresso</h3>
+                    <p>R$ 5,00</p>
+                </div>
+                <div class="item">
+                    <h3>Cappuccino</h3>
+                    <p>R$ 7,00</p>
+                </div>
+                <div class="item">
+                    <h3>Latte</h3>
+                    <p>R$ 6,50</p>
+                </div>
+                <div class="item">
+                    <h3>Chocolate Quente</h3>
+                    <p>R$ 8,00</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="galeria">
+        <div class="container">
+            <h2>Galeria</h2>
+            <div class="gallery">
+                <img src="expresso.webp" alt="Café Expresso">
+                <img src="Cappuccino.webp" alt="Cappuccino">
+                <img src="Latte.webp" alt="Latte">
+                <img src="ChocolateQuente.webp" alt="Chocolate Quente">
+            </div>
+        </div>
+    </section>
+
+    <section id="contato">
+        <div class="container">
+            <h2>Contato</h2>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container" id="final">
+            <p>&copy; 2024 Cafeteria Delícia. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
